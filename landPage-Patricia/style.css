@@ -1,0 +1,42 @@
+body {
+background: linear-gradient(rgba(135, 212, 250, 0.157), rgba(3, 2, 85, 0.5));
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+padding: 0;
+
+}
+
+.lead {
+  text-align: justify; /* Alinha o texto nas duas margens */
+  line-height: 1.6; /* Ajusta o espaçamento entre linhas */
+  margin: 20px; /* Adiciona espaço ao redor do texto */
+  font-family: Arial, sans-serif; /* Escolha uma fonte legível */
+  font-size: 16px; /* Ajuste o tamanho da fonte */
+  color: #0b0000; /* Ajusta a cor do texto */
+}
+
+
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .custom-logo{
+    height: 100px;
+    position:fixed;
+    top: 0;
+    left: 0%;
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+
+  }
+  
